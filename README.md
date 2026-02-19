@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#ATask_1 - CGPA Calculator (C++)
+#Task_1 - CGPA Calculator (C++)
 
 This project is developed as part of my C++ Programming Internship at CodeAlpha.
 
@@ -27,7 +27,7 @@ If a number placement leads to a wrong solution, the algorithm backtracks and tr
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Task_4 - Banking System (C++)
+#Task_4 - Banking System (C++)
 
 This project is developed as part of my C++ Programming Internship at CodeAlpha.
 
