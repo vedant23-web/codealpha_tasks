@@ -2,7 +2,6 @@
 
 #define SIZE 9
 
-// Function to print Sudoku board nicely
 void printBoard(int board[SIZE][SIZE]) {
 
     std::cout << "\nSolved Sudoku:\n";
@@ -25,20 +24,16 @@ void printBoard(int board[SIZE][SIZE]) {
     }
 }
 
-// Check if number can be placed safely
 bool isSafe(int board[SIZE][SIZE], int row, int col, int num) {
 
-    // Check row
     for (int x = 0; x < SIZE; x++)
         if (board[row][x] == num)
             return false;
 
-    // Check column
     for (int x = 0; x < SIZE; x++)
         if (board[x][col] == num)
             return false;
 
-    // Check 3x3 subgrid
     int startRow = row - row % 3;
     int startCol = col - col % 3;
 
@@ -50,7 +45,6 @@ bool isSafe(int board[SIZE][SIZE], int row, int col, int num) {
     return true;
 }
 
-// Backtracking algorithm
 bool solveSudoku(int board[SIZE][SIZE]) {
 
     for (int row = 0; row < SIZE; row++) {
@@ -67,16 +61,16 @@ bool solveSudoku(int board[SIZE][SIZE]) {
                         if (solveSudoku(board))
                             return true;
 
-                        board[row][col] = 0; // Backtrack
+                        board[row][col] = 0; 
                     }
                 }
 
-                return false; // No number fits
+                return false; 
             }
         }
     }
 
-    return true; // Solved
+    return true; 
 }
 
 int main() {
@@ -96,3 +90,4 @@ int main() {
 
     return 0;
 }
+
