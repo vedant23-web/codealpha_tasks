@@ -1,6 +1,7 @@
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# codealpha_tasks
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Task_1 - CGPA Calculator (C++)
+## Task_1 - CGPA Calculator (C++)
 
 This project is developed as part of my C++ Programming Internship at CodeAlpha.
 
@@ -10,7 +11,7 @@ Project Description: The program first takes input for the number of semesters. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Task_3 - Sudoku Solver (C++) 
+## Task_3 - Sudoku Solver (C++) 
 
 This project is developed as part of my C++ Programming Internship at CodeAlpha.
 
@@ -27,7 +28,7 @@ If a number placement leads to a wrong solution, the algorithm backtracks and tr
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Task_4 - Banking System (C++)
+## Task_4 - Banking System (C++)
 
 This project is developed as part of my C++ Programming Internship at CodeAlpha.
 
